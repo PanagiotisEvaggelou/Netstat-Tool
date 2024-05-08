@@ -6,7 +6,7 @@ This Python program is a utility tool designed to automatically check if specifi
 
 This can be particularly useful in scenarios where multiple instances of a development server are running simultaneously, or when a port is unexpectedly occupied by another process.
 
-## How to run
+## How to Run
  
    To use the Port Killer Tool, you need to run the script using Python. It will prompt you to enter the port numbers you want to check and kill processes on. Here's how you can do it:
 
@@ -27,3 +27,7 @@ The script will then ask you to enter the port numbers you want to check and kil
 
    - Windows Specific: The script is designed to work on Windows operating systems and uses Windows-specific command-line tools. It may not work on other operating systems without modification.
    - Requires Administrative Privileges: The taskkill command may require administrative privileges to terminate processes. Running the script may prompt for administrative access.
+
+## Screenshots
+
+![Screenshot](img/Screenshot.png)
