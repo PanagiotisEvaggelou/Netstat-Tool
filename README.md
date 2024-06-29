@@ -18,15 +18,6 @@ This can be particularly useful in scenarios where multiple instances of a devel
 
 The script will then ask you to enter the port numbers you want to check and kill processes on. After you've entered the port numbers, the script will automatically check each port and terminate any processes using those ports.
 
-## Dependencies
-
-   - Python: The script is written in Python and requires Python to be installed on your system.
-   - Windows Command-Line Tools: The script utilizes netstat and taskkill, which are Windows command-line tools. Ensure these tools are available in your system's PATH.
-
-## Limitations
-
-   - Windows Specific: The script is designed to work on Windows operating systems and uses Windows-specific command-line tools. It may not work on other operating systems without modification.
-   - Requires Administrative Privileges: The taskkill command may require administrative privileges to terminate processes. Running the script may prompt for administrative access.
 
 ## Screenshots
 
